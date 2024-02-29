@@ -1,0 +1,85 @@
+/*Variables*/
+:root {
+  --white: hsl(0, 0%, 100%);
+  --light-pink: hsl(275, 100%, 97%);
+  --grayish-purple: hsl(292, 16%, 49%);
+  --dark-purple: hsl(292, 42%, 14%);
+  --standard: 1rem;
+  --light: 400;
+  --semi-bold: 600;
+  --bold: 700;
+}
+
+/*Body and default styles*/
+body {
+    background-color: var(--light-pink);
+    background-image: url('./assets/images/background-pattern-mobile.svg');
+    background-repeat: no-repeat;
+    font-family: Work Sans, sans-serif;
+    color: var(--dark-purple);
+    font-weight: 700;
+}
+
+/*Main*/
+.container {
+    background-color: var(--white);
+    margin: 8.875rem 1.5rem;
+    border-radius: 10px;
+}
+
+.inner-container {
+  padding: 2rem 1.6875rem 1.5rem 1.5rem;  
+}
+
+.card-title-section img {
+  height: 1.4375rem;
+  width: 1.4375rem;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  display: inline;
+  padding-left: 1.625rem;
+}
+
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+.qna img {
+  height:1.5625rem;
+  width: 1.625rem;
+  padding-left: 2.5rem;
+}
+
+.question {
+  font-size: var(--standard);
+  display: inline;
+}
+
+
+.closed {
+  display: inline;
+}
+
+.open {
+  display: none;
+}
+
+.answer {
+  display: none;
+}
+
+hr {
+  border-top: 1px solid var(--light-pink);
+}
+
+/*Footer*/
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
