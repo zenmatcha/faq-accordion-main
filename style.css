@@ -38,7 +38,7 @@ body {
 
 .card-title {
   font-size: 1.5rem;
-  display: inline;
+  display: inline-block;
   padding-left: 1.625rem;
 }
 
@@ -50,17 +50,18 @@ ul {
 .qna img {
   height:1.5625rem;
   width: 1.625rem;
-  padding-left: 2.5rem;
+  
+  
 }
 
 .question {
   font-size: var(--standard);
-  display: inline;
+  display: inline-block;
 }
 
 
 .closed {
-  display: inline;
+  display: inline-block;
 }
 
 .open {
@@ -83,3 +84,14 @@ hr {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+/* copied from solutions
+.question-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 2.5rem;
+
+  padding: 2rem 0 2rem 0;
+}
+*/
