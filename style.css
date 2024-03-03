@@ -3,6 +3,7 @@
   --white: hsl(0, 0%, 100%);
   --light-pink: hsl(275, 100%, 97%);
   --grayish-purple: hsl(292, 16%, 49%);
+  --pink-purple:hsl(292, 59%, 52%);
   --dark-purple: hsl(292, 42%, 14%);
   --standard: 1rem;
   --light: 400;
@@ -49,20 +50,25 @@ ul {
 
 .qna {
   display: flex;
-  flex-direction: column;
-  justify-content:space-around;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items:center;
 }
 
 .qna img {
   height:1.5625rem;
   width: 1.625rem;
   
-  
 }
 
 .question {
   font-size: var(--standard);
   display: inline-block;
+}
+
+h2:hover {
+  cursor:pointer;
+  color: var(--pink-purple);
 }
 
 
